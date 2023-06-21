@@ -40,7 +40,7 @@ export default function Ml() {
     setTime(Number(time));
 
     await axios
-      .post("https://heart-failure-api.onrender.com/prediction", {
+      .post("https://heart-failure-api-v2.onrender.com/prediction", {
         age,
         anaemia,
         creatinine_phosphokinase,
