@@ -1,13 +1,22 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import DocViewer from "react-doc-viewer";
 
 export default function Ppt() {
-  // const docs = [{ uri: require("../Assets/IEEE Hack.pptx.png") }];
   return (
     <div>
       <Navbar />
-      {/* <DocViewer documents={docs} />; */}
+      <div className="ppt">
+        <iframe
+          src="https://www.slideshare.net/slideshow/embed_code/key/HusIn6BFM8yRjm?hostedIn=slideshare&page=upload"
+          width="1450"
+          height="830"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          scrolling="no"
+          title="PPT"
+        ></iframe>
+      </div>
     </div>
   );
 }
