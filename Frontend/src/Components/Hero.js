@@ -2,8 +2,8 @@ import React from "react";
 import BannerBackground from "../Assets/blob.svg";
 import BannerImage from "../Assets/hero image.png";
 import Navbar from "./Navbar";
-import { FiArrowRight } from "react-icons/fi";
-
+// import { FiArrowRight } from "react-icons/fi";
+import {Link} from "react-router-dom"
 const Home = () => {
   return (
     <div className="home-container">
@@ -17,11 +17,13 @@ const Home = () => {
             Empowering Health through Early Awareness
           </h1>
           <p className="primary-text">
-            nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras
-            ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas
+            Welcome to Heartify, a Risk Assessment tool, designed to help
+            individuals assess their risk factors for heart failure.
           </p>
           <button className="secondary-button">
-            Give it a try  <FiArrowRight />{" "}
+            <Link to="/"> Give it a try!</Link>
+            {/* {<Link to="/ml">Give ti a try</Link>} */}
+            {/* Give it a try <FiArrowRight />{" "} */}
           </button>
         </div>
         <div className="home-image-section">

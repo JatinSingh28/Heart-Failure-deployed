@@ -13,17 +13,17 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-        Stay Ahead of Heart Failure: Predicting Your Health, Saving Your Heart
+          Stay Ahead of Heart Failure: Predicting Your Health, Saving Your Heart
         </h1>
         <p className="primary-text">
-          nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras
-          ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas
-          
+          By evaluating various aspects of your lifestyle, medical history, and
+          physiological indicators, our predictive model can estimate your
+          likelihood of developing heart failure.
         </p>
         <p className="primary-text">
-          nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras
-          ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas
-          
+          Remember, this tool provides an informative assessment, but it's
+          important to consult with a healthcare professional for an accurate
+          diagnosis and personalized advice.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
