@@ -9,7 +9,7 @@ export default function Ppt() {
         <iframe
           src="https://www.slideshare.net/slideshow/embed_code/key/HusIn6BFM8yRjm?hostedIn=slideshare&page=upload"
           width="1450"
-          height="830"
+          height="800"
           frameborder="0"
           marginwidth="0"
           marginheight="0"
